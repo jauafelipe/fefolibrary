@@ -1,14 +1,17 @@
 {
   "name": "fefolibrary",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build":"tsc --declaration",
-    "dev":"nodemon --watch \"src//\" --exec \"ts-node src/Module/index.ts\" -e ts"
+    "build": "tsc --declaration",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/Module/index.ts\" -e ts"
   },
-  "keywords": ["discord",""],
+  "keywords": [
+    "discord",
+    ""
+  ],
   "author": "felipe-vulgo-fefo",
   "license": "ISC",
   "bugs": {
@@ -26,5 +29,4 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
-
 }
