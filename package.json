@@ -1,0 +1,21 @@
+{
+  "name": "fefolibrary",
+  "version": "1.0.6",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build":"tsc --declaration",
+    "dev":"nodemon --watch \"src//\" --exec \"ts-node src/Module/index.ts\" -e ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.9.1",
+    "discord.js": "^14.14.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
